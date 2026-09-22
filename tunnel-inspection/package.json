@@ -1,0 +1,15 @@
+{
+  "name": "tunnel-lining-inspection",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "隧道衬砌巡检系统：汇聚巡检影像与测缝计数据，识别裂缝扩展趋势，对超限段落派发现场复核任务",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "seed": "node server/seed.js --force",
+    "test": "node --test test/"
+  }
+}
